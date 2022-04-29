@@ -1,0 +1,300 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 6350,
+      "max": [
+        0.35485193133354187,
+        0.933218240737915,
+        0.42735686898231506
+      ],
+      "min": [
+        -0.3818642199039459,
+        -0.9359692335128784,
+        -0.4462625980377197
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 76200,
+      "componentType": 5126,
+      "count": 6350,
+      "max": [
+        0.9999967217445374,
+        1.0,
+        0.9999998211860657
+      ],
+      "min": [
+        -0.9999983906745911,
+        -1.0,
+        -0.9999979734420776
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 6350,
+      "max": [
+        0.9999998211860657,
+        1.0,
+        0.999999463558197,
+        1.0
+      ],
+      "min": [
+        -0.9999984502792358,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6350,
+      "max": [
+        0.9974711537361145,
+        0.9804155826568604
+      ],
+      "min": [
+        0.0025208480656147003,
+        0.002480115042999387
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 50800,
+      "componentType": 5126,
+      "count": 6350,
+      "max": [
+        0.9974711537361145,
+        0.9804155826568604
+      ],
+      "min": [
+        0.0025208480656147003,
+        0.002480115042999387
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 23976,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "vojtaklemperer (https://sketchfab.com/vojtaklemperer)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/garden-metal-bench-a6da0dff0f9b4a5a8e821c40b370a98f",
+      "title": "Garden metal bench"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 95904,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 101600,
+      "byteOffset": 95904,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 152400,
+      "byteOffset": 197504,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 101600,
+      "byteOffset": 349904,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 451504,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/bench_baseColor.png"
+    },
+    {
+      "uri": "textures/bench_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/bench_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "bench",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "metal bench_bench_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "18be50c30cd144f385da9da2c0a31949.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        75.6740205284818,
+        0.2060854471375395,
+        3.114678228929001e-08,
+        0.0,
+        6.472223483557986e-08,
+        -1.2328775543250321e-05,
+        -75.67428588867088,
+        0.0,
+        -0.2060854471375317,
+        75.67402052848081,
+        -1.2328908572249454e-05,
+        0.0,
+        0.0,
+        33.717872619628906,
+        0.0,
+        1.0
+      ],
+      "name": "metal bench"
+    },
+    {
+      "mesh": 0,
+      "name": "metal bench_bench_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

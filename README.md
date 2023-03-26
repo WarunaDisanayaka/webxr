@@ -1,6 +1,6 @@
 # WebXr
 
-![Project Image](https://example.com/image.jpg)
+![Project Image](shorturl.at/ovCX9)
 
 ## Description
 
